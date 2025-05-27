@@ -1,0 +1,21 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.fontFamily": "JetBrainsMono Nerd Font, Hack Nerd Font",
+    "makefile.makefilePath": "${workspaceFolder}/Makefile",
+    "makefile.loggingLevel": "Verbose",
+    "makefile.configurations": [
+      {
+        "name": "Build CLIs Target: All",
+        "makeArgs": ["build_all", "VERSION=1.0.0"]
+      }
+    ]
+  },
+  "extensions": {
+    "recommendations": ["tamasfe.even-better-toml", "rogalmic.zsh-debug"]
+  }
+}
